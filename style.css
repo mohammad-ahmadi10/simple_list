@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body, html{
+        background-image: linear-gradient(70deg, #33ccff 10% , #ff99cc 98%);
+        height: 100%;
+        overflow: auto;
+}
+
+/*
+.circle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+*/
+
+
+
+#list_sec .container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 100px;
+    height: 400px;
+    margin-left: 55px;
+    padding: 0;
+}
+
+#list_sec .container h2{
+    margin-bottom: 40px;    
+}
+
+#list_sec .input_div input{
+    width: 300px;
+    height: 30px;
+    padding-left: 5px;
+    border: 0;
+}
+
+#list_sec .input_div{
+    display: flex;
+    flex-flow: row wrap;
+}
+#list_sec .input_div .btn{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.2s ease box-shadow;
+    border: 0;
+    
+
+}
+
+#list_sec .container ul{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#list_sec .container ul li{
+    margin: 10px 0;
+    list-style-type: square;
+}
+
+#list_sec .input_div .btn-add{
+    background-color: #46cc80;
+    font-size: 0.9rem;
+    
+}
+
+#list_sec .input_div .btn:hover{
+    box-shadow: 0px 0px 4px 0.3px #736262;
+}
+
+#list_sec .input_div .btn-remove{
+    background-color: #da4c24;
+    font-size: 0.9rem;
+}
+
+.done{
+    text-decoration: line-through;
+    color: rgba( 212, 89, 78, 0.783 );
+    font-size: 0.9rem;
+}
+
+.delete{
+    margin-left: 10px;
+   background-image: url("https://img.icons8.com/color/48/000000/delete-sign.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-radius: 50%;
+   border-width: 0;
+    background-color: transparent;
+   color: rgba( 211, 90, 79, 0.783 );
+   width: 15px;
+   height: 15px;
+}
+
+.delete:hover{
+    transform: scale(1.1);
+}
